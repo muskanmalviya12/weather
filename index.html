@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do App</title>
+    <title>WeatherVue</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>To-Do List</h1>
-        <form id="task-form">
-            <input type="text" id="task-input" placeholder="Enter a new task" required>
-            <button type="submit">Add Task</button>
-        </form>
-        <h2>Pending Tasks</h2>
-        <ul id="task-list"></ul>
-        <h2>Completed Tasks</h2>
-        <ul id="completed-task-list"></ul>
+        <h1>WeatherVue</h1>
+        <div id="weather-info">
+            <p>Enter a city name to get weather information:</p>
+            <input type="text" id="city-input" placeholder="City name">
+            <button id="get-weather-btn">Get Weather</button>
+        </div>
+        <div id="weather-display"></div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+
 
